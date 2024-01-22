@@ -1,0 +1,15 @@
+{
+	"name": "@sam-com/test-2",
+	"version": "1.0.0",
+	"description": "",
+	"keywords": [],
+	"author": "Samuel Comeau <samuelcomeau@gmail.com>",
+	"license": "ISC",
+	"main": "src/index.ts",
+	"scripts": {
+		"check": "pnpm tsc --build --verbose"
+	},
+	"dependencies": {
+		"@sam-com/test-1": "workspace:*"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"name": "@sam-com/ts-config",
+	"version": "1.0.0",
+	"description": "Shared typesript configurations",
+	"keywords": [],
+	"author": "Samuel Comeau <samuelcomeau@gmail.com>",
+	"license": "ISC",
+    "private": true
+}

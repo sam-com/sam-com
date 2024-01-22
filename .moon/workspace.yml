@@ -1,0 +1,13 @@
+$schema: 'https://moonrepo.dev/schemas/workspace.json'
+
+hasher:
+  optimization: 'performance'
+projects:
+  - 'packages/apps/*'
+  - 'packages/libs/*'
+  - 'packages/tools/*'
+telemetry: false
+vcs:
+  defaultBranch: 'main'
+  manager: 'git'
+  provider: 'github'

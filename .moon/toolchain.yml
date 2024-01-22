@@ -1,0 +1,15 @@
+$schema: "https://moonrepo.dev/schemas/toolchain.json"
+node:
+    dependencyVersionFormat: "workspace"
+    inferTasksFromScripts: true
+    packageManager: "pnpm"
+    syncProjectWorkspaceDependencies: true
+    pnpm:
+        version: "8.14.1"
+    version: "20.11.0"
+typescript:
+    root: "packages/tools/ts-config"
+    rootConfigFileName: "tsconfig.json"
+    rootOptionsConfigFileName: "tsconfig.options.json"
+    routeOutDirToCache: true
+    syncProjectReferences: true

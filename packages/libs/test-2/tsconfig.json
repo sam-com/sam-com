@@ -1,0 +1,17 @@
+{
+  "extends": "@sam-com/ts-config",
+  "compilerOptions": {
+    "emitDeclarationOnly": true,
+    "outDir": "../../../.moon/cache/types/packages/libs/test-2",
+    "paths": {}
+  },
+  "include": [
+    "src/**/*",
+    "*.ts"
+  ],
+  "references": [
+    {
+      "path": "../test-1"
+    }
+  ]
+}

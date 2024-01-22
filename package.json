@@ -1,0 +1,25 @@
+{
+	"name": "@sam-com/sam-com",
+	"version": "1.0.0",
+	"description": "root of the monorepo",
+	"keywords": [],
+	"author": "Samuel Comeau <samuelcomeau@gmail.com>",
+	"license": "ISC",
+	"packageManager": "pnpm@8.14.1",
+	"engines": {
+		"node": "20.11.0"
+	},
+	"devDependencies": {
+		"@moonrepo/cli": "^1.19.3",
+		"@playwright/test": "^1.28.1",
+		"@sam-com/ts-config": "workspace:^",
+		"@types/node": "^20.11.5",
+		"eslint": "^8.56.0",
+		"prettier": "^3.1.1",
+		"prettier-plugin-svelte": "^3.1.2",
+		"tsconfig-moon": "^1.3.0",
+		"typescript": "^5.0.0",
+		"vite": "^5.0.11",
+		"vitest": "^1.2.0"
+	}
+}

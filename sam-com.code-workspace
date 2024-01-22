@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "✨ sam-com",
+			"path": "."
+		},
+		{
+			"name": "📦 test-1",
+			"path": "packages/libs/test-1"
+		},
+		{
+			"name": "📦 test-2",
+			"path": "packages/libs/test-2"
+		},
+		{
+			"name": "⚙️ ts-config",
+			"path": "packages/tools/ts-config"
+		}
+	],
+	"settings": {
+		"terminal.integrated.cursorStyle": "block"
+	}
+}

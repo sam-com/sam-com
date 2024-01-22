@@ -1,0 +1,24 @@
+$schema: "https://moonrepo.dev/schemas/tasks.json"
+tasks:
+    build:
+        command: "build"
+        inputs:
+            - "src/**/*"
+            - "svelte.config.js"
+            - "vite.config.ts"
+        outputs:
+            - "dist"
+            - ".svelte-kit"
+    check:
+        command: "check"
+        deps:
+            - "^:check"
+        inputs:
+            - "src/**/*.ts"
+    dev:
+        command: "dev"
+        local: true
+    lint:
+        command: "lint"
+        inputs:
+            - "src/**/*"
