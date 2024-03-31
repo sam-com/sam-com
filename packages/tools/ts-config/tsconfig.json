@@ -1,15 +1,18 @@
 {
-	"extends": "./tsconfig.options.json",
-	"files": [],
-	"references": [
-		{
-			"path": "../../libs/test-1"
-		},
-		{
-			"path": "../../libs/test-2"
-		}
-	],
-	"compilerOptions": {
-		"outDir": "../../../.moon/cache/types/packages/tools/ts-config"
-	}
+  "extends": "./tsconfig.options.json",
+  "files": [],
+  "references": [
+    {
+      "path": "../../libs/design-system"
+    },
+    {
+      "path": "../../libs/test-1"
+    },
+    {
+      "path": "../../libs/test-2"
+    }
+  ],
+  "compilerOptions": {
+    "outDir": "../../../.moon/cache/types/packages/tools/ts-config"
+  }
 }

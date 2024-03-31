@@ -5,8 +5,8 @@ node:
     packageManager: "pnpm"
     syncProjectWorkspaceDependencies: true
     pnpm:
-        version: "8.14.1"
-    version: "20.11.0"
+        version: "8.15.5"
+    version: "20.11.1"
 typescript:
     root: "packages/tools/ts-config"
     rootConfigFileName: "tsconfig.json"
